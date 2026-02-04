@@ -200,7 +200,7 @@ QUEEN_PST = [
     -20, -10, -10, -5,  -5, -10, -10, -20
 ]
 
-# 白方王位置权重表（QUEEN_PST）
+# 白方王位置权重表（KING_PST）
 KING_PST = [
     -30, -40, -40, -50, -50, -40, -40, -30,
     -30, -40, -40, -50, -50, -40, -40, -30,
@@ -704,7 +704,6 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QPainter, QColor, QPixmap, QBrush, QFont, QIcon
 from PyQt5.QtCore import Qt, pyqtSignal, QObject, QThread
-  # 导入自定义游戏逻辑模块
 
 
 class AIWorker(QThread):
